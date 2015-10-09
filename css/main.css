@@ -138,20 +138,20 @@ html, body, .container-fluid {
 
 .pythonDescrCrib{
   height: 400px;
-  background-image: url(/images/Crib.jpg);
+  background-image: url(/img/Crib.jpg);
   border-color: 
 }
 
 .pythonDescrBog{
   height: 400px;
-  background-image: url(/images/boggle.jpg);
+  background-image: url(/img/boggle.jpg);
   border-top: solid 10px; border-bottom: solid 10px;
   border-color: 
 }
 
 .pythonDescrImg{
   height: 400px;
-  background-image: url(/images/Mntn.jpg);
+  background-image: url(/img/Mntn.jpg);
   z-index: 10;
   border-bottom: solid 10px;
   border-color: 
