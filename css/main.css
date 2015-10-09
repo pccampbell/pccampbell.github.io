@@ -1,170 +1,193 @@
-html, body, .container-fluid {
+html, body, .container-fluid{
     width: 100%;
-    
+		height: 100%;
+    margin: 0px;
+    padding: 0px;
+		position: relative;
 }
-.jumbotron {
+.row {
+  margin-right:0;
+  margin-left:0;
+}
+
+.container-fluid{
+  font-family: 'Josefin Sans', sans-serif;
+	padding-left:0;
+  padding-right: 0;
+	height: 92%;
+}
+
+.title {
   background-color: #00886D;
-  height: 680px;
-  margin-bottom: 0px;
+  height: 100%;
 }
 
-.jumbotron .container {
-  position: relative;
-  top: 150px;
-  text-align: center
+.titleBox {
+  top:25%;
+  text-align: center;
+  display: table;
 }
 
-.jumbotron h1 {
+.titleBox h1 {
   color: #fff;
   font-size: 68px;
   letter-spacing: .1em;
-  font-family: 'Josefin Sans', sans-serif;
   font-weight: bold;
-  
 }
 
-.jumbotron p {
+.titleBox p {
   font-size: 22px;
   color: #fff;
-  font-family: 'Josefin Sans', sans-serif;
 }
 
-.jumbotron .socialMedia a{
-  display: block;
-  width: 30px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 145px;
+.titleBox .socialMedia{
   color: #fff;
+  padding-right: .5em;
 }
 
-.nav {
-  height: auto;
-  background-color: #fff;
+.titleBox .socialMedia:hover{
+  color: #284375;
 }
-.nav .container-fluid{
-  font-family: 'Josefin Sans', sans-serif;
-  
+.nav {
+	text-align: center;
+	display: flex;
+  height: 5%;
+  background-color: #fff;
+	align-items:center;
+	top:2%;
 }
 
 .nav h2 {
   color: #000;
-  text-align: center;
-  font-size: 32px;
-  padding-bottom: 3px;
+	margin-bottom: 20px;
 }
 
 .AboutMe {
-  height: 300px;
+  height: 600px;
   background-color: #284375;
   font-family: 'Josefin Sans', sans-serif;
 }
 
 .AboutMe h1 {
+  font-size: 56px;
   color: #fff;
+  margin-top: 9%;
 }
 .AboutMe p {
-  font-size: 18px;
+  font-size: 19px;
   color: #fff;
-  margin-top: 40px;
+  margin-top: 50px;
   text-align: justify;
 }
 
 .projects{
   font-family: 'Josefin Sans', sans-serif;
-  max-width: 100%
 }
 
 .header{
   background-color: #F6981A;
-  height: 300px;
+  height: 500px;
   text-align: center;
 }
 .header h1{
   color: #000;
   vertical-align: middle;
-  font-size: 70px;
+  font-size: 100px;
   align-self: center;
   width: 100%;
-  height: 85px;
+  height: 120px;
   margin: auto;
   position: absolute;
   top: 0; bottom: 0; left: 0; right: 0;
 }
 
-
 .subCategory{
   height: 150px;
   background-color: #284375;
-  border-bottom: solid 10px;
   z-index: 1;
+  
 }
 .subCategory h1{
   color: #000;
   z-index: 1;
-  width: 170px;
-  height: 70px;
+  width: 190px;
+  height: 80px;
   margin: auto;
   position: absolute;
   top: 0; bottom: 0; left: 0; right: 0;
   margin-left: 400px;
   margin-top: auto;
   margin-bottom: auto;
-  font-size: 60px
+  font-size: 70px;
+	letter-spacing: .1em;
 }
 
-.pythonProjCrib{
+.pythonProj{
+	margin: 0;
   height: 400px;
   background-color: #F6981A;
-  margin-left: auto;
-  border-color: 
 }
 
-.pythonProjBog{
+.pythonProjTitle h2{
+	color: #000;
+	font-size: 56px;
+	text-align: center;
+	letter-spacing: .1em;
+	margin-top: 135px;
+}
+
+.pythonProjTitle h2:hover{
+	color: #284375;
+	font-size: 60px;
+}
+
+.pythonProjTitle a:hover{
+	text-decoration: none;
+}
+
+.cribImg{
+	height: 400px;
+	background-image: url(/img/Crib2.jpg);
+}
+
+
+.bogImg{
   height: 400px;
-  background-color: #F6981A;
-  margin-left: auto;
-  border-top: solid 10px; border-bottom: solid 10px;
-  border-color: 
+  background-image: url(/img/bog.jpg);
+  
 }
 
-.pythonProjImg{
-  height: 400px;
-  background-color: #F6981A;
-  margin-left: auto;
-  border-bottom: solid 10px;
-  border-color: 
-}
-
-.pythonDescrCrib{
-  height: 400px;
-  background-image: url(/img/Crib.jpg);
-  border-color: 
-}
-
-.pythonDescrBog{
-  height: 400px;
-  background-image: url(/img/boggle.jpg);
-  border-top: solid 10px; border-bottom: solid 10px;
-  border-color: 
-}
-
-.pythonDescrImg{
+.animImg{
   height: 400px;
   background-image: url(/img/Mntn.jpg);
-  z-index: 10;
-  border-bottom: solid 10px;
-  border-color: 
+  z-index: 1;
 }
 
-.cProjCar{
+.cProj{
   height: 600px;
   background-color: #F6981A;
   margin-left: auto;
   border-color: 
 }
 
-.cDescrCar{
+.cProjTitle h2{
+	color: #000;
+	font-size: 56px;
+	text-align: center;
+	letter-spacing: .1em;
+	margin-top: 135px;
+}
+
+.cProjTitle h2:hover{
+	color: #284375;
+	font-size: 60px;
+}
+
+.cProjTitle a:hover{
+	text-decoration: none;
+}
+
+.carVid{
   height: 600px;
   border-top: solid 10px;
 }
