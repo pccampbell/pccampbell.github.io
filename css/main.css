@@ -14,7 +14,7 @@ html, body, .container-fluid{
   font-family: 'Josefin Sans', sans-serif;
 	padding-left:0;
   padding-right: 0;
-	height: 92%;
+	height: 90%;
 }
 
 .title {
@@ -51,7 +51,7 @@ html, body, .container-fluid{
 .nav {
 	text-align: center;
 	display: flex;
-  height: 5%;
+  height: 6%;
   background-color: #fff;
 	align-items:center;
 	top:2%;
@@ -60,6 +60,7 @@ html, body, .container-fluid{
 .nav h2 {
   color: #000;
 	margin-bottom: 20px;
+	font-size: 26px;
 }
 
 .AboutMe {
