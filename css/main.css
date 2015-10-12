@@ -64,7 +64,7 @@ html, body, .container-fluid{
 	display: -webkit-flex;
 	-webkit-align-items: center;
 	display: flex;								/*For other browsers*/
-	align-content: center;
+	align-items: center;
 }
 
 .AboutMe h1 {
@@ -90,7 +90,7 @@ html, body, .container-fluid{
 	display: -webkit-flex;
 	-webkit-align-items: center;
 	display: flex;								/*For other browsers*/
-	align-content: center;
+	align-items: center;
 }
 .header h1{
   color: #000;
@@ -198,5 +198,4 @@ html, body, .container-fluid{
     height: auto; 
 	 	background-size: cover;
     overflow: hidden;
-		-moz-transform: rotate(90deg);
 }
