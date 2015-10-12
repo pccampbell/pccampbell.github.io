@@ -84,7 +84,7 @@ html, body, .container-fluid{
 .header{
   background-color: #F6981A;
   height: 500px;
-	display: flex;
+	text-align: center;
 	display: -webkit-flex;
 	-webkit-align-items: center;
 }
