@@ -190,7 +190,6 @@ html, body, .container-fluid{
 
 .carVid{
   height: 600px;
-  border-top: solid 10px;
 }
 
 .videoInsert {
@@ -198,9 +197,10 @@ html, body, .container-fluid{
     right: 0; 
     bottom: 0;
     min-width: 100%; 
+		max-width: 100%;
     min-height: 100%;
     width: auto; 
     height: auto; 
-    background-size: cover;
+	 	background-size: cover;
     overflow: hidden;
 }
