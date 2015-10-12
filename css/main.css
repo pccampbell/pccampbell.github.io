@@ -198,4 +198,5 @@ html, body, .container-fluid{
     height: auto; 
 	 	background-size: cover;
     overflow: hidden;
+		-moz-transform: rotate(90deg);
 }
