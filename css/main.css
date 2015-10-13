@@ -63,7 +63,7 @@ html, body, .container-fluid{
   font-family: 'Josefin Sans', sans-serif;
 	display: -webkit-flex;
 	-webkit-align-items: center;
-	display: flex;								/*For other browsers*/
+	display: flex;								/*Ruduncency for other browsers....Firefox fix*/
 	align-items: center;
 }
 
@@ -89,7 +89,7 @@ html, body, .container-fluid{
 	text-align: center;
 	display: -webkit-flex;
 	-webkit-align-items: center;
-	display: flex;								/*For other browsers*/
+	display: flex;								/*Ruduncency for other browsers....Firefox fix*/
 	align-items: center;
 }
 .header h1{
